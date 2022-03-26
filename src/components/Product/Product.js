@@ -1,22 +1,23 @@
 import React from 'react';
+import { BsFillCartFill } from 'react-icons/bs'
 import { Button, Card } from 'react-bootstrap';
 
 const Product = (props) => {
-    const { name, id, price, picture } = props.product
+    const { name, id, price, picture } = props.product;
+
     return (
 
-        <div className='col-4 g-3'>
+        <div className='col-lg-4 col-sm-12 g-3'>
             <Card className='h-100 p-2 '>
                 <div >
                     <Card.Img className='w-75' variant="top" src={picture} />
                 </div>
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
+                    <Card.Title>Name: {name}</Card.Title>
                     <Card.Text>
-                        {price}
+                        Price: $ {price}
                     </Card.Text>
-                    <p>{id}</p>
-                    <Button variant="primary">Add to cart</Button>
+                    <Button onClick={() => props.handleAddToCart(props.product)} variant="primary">Add to cart <BsFillCartFill></BsFillCartFill> </Button>
                 </Card.Body>
             </Card>
         </div>
