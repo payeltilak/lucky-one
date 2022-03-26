@@ -1,9 +1,21 @@
 import React from 'react';
+import Router from './Router/Router';
 
-const Cart = () => {
+
+const Cart = ({ cart }) => {
+    console.log(cart)
     return (
-        <div>
-            <h2>Choose your Router</h2>
+        <div className='col-bg-4 col-sm-12' >
+            {
+                cart.map(product => <Router product={product} key={product.id}></Router>)
+            }
+            <button className='button'><span>Choose one for me</span></button>
+            <button className='button'><span>CHOICE AGAIN</span></button>
+
+
+
+
+
         </div>
     );
 };
