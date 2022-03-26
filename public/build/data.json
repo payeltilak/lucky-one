@@ -1,0 +1,68 @@
+[
+    {
+        "id": "623ebfbe8e8a4aecc12f169f",
+        "price": 1650,
+        "picture": "https://images.unsplash.com/photo-1606421753414-8d165c9d48e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2lmaSUyMHJvdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Archer AX20"
+    },
+    {
+        "id": "623ebfbed7b3f25c0eefa31c",
+        "price": 3000,
+        "picture": "https://m.media-amazon.com/images/I/51p2d9NML5L._SX450_.jpg",
+        "name": "d-link"
+    },
+    {
+        "id": "623ebfbe1cef2d48cedf73aa",
+        "price": 4000,
+        "picture": "https://smallimg.pngkey.com/png/small/498-4987317_external-antennas-provide-improved-wifi-coverage-for-wifi.png",
+        "name": "mi-860"
+    },
+    {
+        "id": "623ebfbe8b2151a4d58a51fe",
+        "price": 1690,
+        "picture": "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9hc3IvNmM0NmVhYmUtYmJiMS00ZWYwLWJlNTgtNzJlZmQ4NDlhMjZhXzEuZDU2NjU5ZWI3YWQ5OTliOWMyMTAzNWFiMzZmYWQ0NmYuanBlZw.jpg",
+        "name": "mi-8 lite "
+    },
+    {
+        "id": "623ebfbece4370365cfe0fba",
+        "price": 1350,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ZaDL0sZPtkkAi2tNJuP34VePUCY_rE9Ifg&usqp=CAU",
+        "name": "tp-link"
+    },
+    {
+        "id": "623ebfbe9a08d1b771da0e43",
+        "price": 2200,
+        "picture": "https://cdn2.vectorstock.com/i/1000x1000/76/16/slim-realistic-wireless-router-vector-17027616.jpg",
+        "name": "samsung 1250"
+    },
+    {
+        "id": "623ebfbea74e0fa2e0cd83d2",
+        "price": 3200,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWhiQatzHOlDjXOBLaVlu5LFnBKN8TyfDUlg&usqp=CAU",
+        "name": "Archer Ax73"
+    },
+    {
+        "id": "623ebfbea1cc2ea300efd5ed",
+        "price": 2400,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkjY-L2HMXQm97aL8t7Smx1tNhWpXVCeIEw&usqp=CAU",
+        "name": "N300 Smart Router"
+    },
+    {
+        "id": "623ebfbe3a8610f90b0079f1",
+        "price": 4000,
+        "picture": "https://m.media-amazon.com/images/I/6163Up-m4UL._SY450_.jpg",
+        "name": "AC1200"
+    },
+    {
+        "id": "623ebfbedc33d9074daed9f2",
+        "price": 1530,
+        "picture": "https://image.shutterstock.com/image-illustration/3d-modern-wifi-router-on-260nw-220023721.jpg",
+        "name": "Archer AX55"
+    },
+    {
+        "id": "623ebfbe797cd9c86bdca419",
+        "price": 2500,
+        "picture": "https://m.media-amazon.com/images/I/31rn9e1dERL._AC_.jpg",
+        "name": "Archer GX"
+    }
+]

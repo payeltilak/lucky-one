@@ -5,6 +5,7 @@ import Product from '../Product/Product';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [randomProduct, setRandomProduct] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -16,6 +17,18 @@ const Shop = () => {
         setCart(newCart);
 
     }
+    const randomSelect = (cart) => {
+        const random = Math.floor(Math.random() * cart.length)
+        const randomAdd = (cart[random])
+        setRandomProduct(randomAdd)
+    }
+    const handleRemoveCart = () => {
+        const remove = []
+        setCart(remove)
+    }
+
+
+
     return (
         <div className='row container'>
             <div className='col-9'>
@@ -35,7 +48,13 @@ const Shop = () => {
                 <div className='cart row container'>
                     <h2>Selected Router</h2>
 
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart}
+                        randomProduct={randomProduct}
+                        randomSelect={randomSelect}
+                        handleRemoveCart={handleRemoveCart}>
+
+                    </Cart>
+
                 </div>
             </div>
 
