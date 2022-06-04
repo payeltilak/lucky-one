@@ -5,7 +5,7 @@ import Question from './components/Question/Question';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-shop">
       <Shop></Shop>
       <Question></Question>
 
